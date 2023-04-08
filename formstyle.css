@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif
+    margin: 30px 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 20px 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.main_heading{
+    text-align: center;
+    background-color: #4caf84;
+    border: 2px solid lightgray;
+   padding: 20px 20px;
+   border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: #4daea1;
+    font-size: large;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer; /* this tag is most important it's help to chage cursor */                 
+}
+
+input[type="submit"]:hover{
+    background-color: #4caf84;
+}

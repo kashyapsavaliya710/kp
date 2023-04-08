@@ -1,0 +1,394 @@
+html {
+    overflow-x: hidden;
+    font-size: 17px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.600);
+    padding: 17px;
+    margin: -19px;
+    padding-right: 530px;
+    position: fixed;
+
+
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 18px;
+    color: white;
+    font-size: 21px;
+    text-shadow: 4px 3px 5px black;
+}
+
+.nav .logo {
+    color: lightpink;
+    text-transform: uppercase;
+    text-shadow: 4px 3px 5px black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.nav .logo:hover {
+    color: white;
+    text-decoration: underline;
+    text-shadow: 4px 3px 5px black;
+
+}
+
+.nav :hover {
+    color: lightcoral;
+    text-shadow: 4px 3px 5px black;
+
+    text-decoration: underline;
+
+}
+
+video {
+    position: inherit;
+    margin-top: 3.7%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.text .kp {
+    color: yellow;
+    background-color: lightcoral;
+    border-radius: 13px;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.text .kp:hover {
+    cursor: default;
+}
+
+.text-del .kp {
+    color: yellow;
+    background-color: lightcoral;
+    border-radius: 10px;
+    padding: 3px 10px 3px 10px;
+    text-decoration: none;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+.box {
+    border: .1rem solid rgba(2, 2, 2, .2);
+    border-radius: 4px;
+    width: 25%;
+    height: 450px;
+    overflow: hidden;
+    box-shadow: 7px 7px 5px gray;
+    background-color: white;
+}
+
+.box-del {
+    border: .1rem solid rgba(2, 2, 2, .2);
+    border-radius: 6px;
+    width: 25%;
+    height: 450px;
+    overflow: hidden;
+    box-shadow: 7px 7px 5px gray;
+    background-color: white;
+
+}
+
+.img1 {
+    height: 200px;
+    width: 100%;
+    object-fit: fill;
+    box-shadow: 6px 6px 9px gray;
+    border: px solid black;
+}
+
+.img1:hover {
+    transform: scale(1.1);
+    cursor: zoom-in;
+
+}
+
+.flex-1 {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+p {
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.price {
+    padding-top: -5px;
+    font-size: 23px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+button {
+    background-color: orange;
+    border: 1px solid black;
+    padding: 9px 20px;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px gray;
+
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+
+}
+
+button:hover {
+    background-color: black;
+    border: 2.5px solid orange;
+
+}
+
+/*brands */
+
+.logoimg {
+    margin: 10px;
+
+}
+
+.img2 {
+    height: 100px;
+    width: 150px;
+    border: 1px solid rgba(2, 2, 2, .2);
+    border-radius: 4px;
+    padding: 25px 25px 25px 25px;
+    background-color: white;
+}
+
+.img2:hover {
+    transform: scale(1.1);
+    box-shadow: 9px 9px 5px gray;
+
+}
+
+
+.logoimg:hover {
+
+    overflow: hidden;
+
+}
+
+.brand {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 40px 0px 40px 0px;
+    margin: 0px 40px 0px 40px;
+}
+
+/* sport car css*/
+
+.box1 {
+    border: .1rem solid rgba(2, 2, 2, .2);
+    border-radius: 6px;
+    width: 25%;
+    height: 360px;
+    overflow: hidden;
+    box-shadow: 7px 7px 5px gray;
+    background-color: white;
+
+}
+.box1-del{
+    border: .1rem solid rgba(2, 2, 2, .2);
+    border-radius: 6px;
+    width: 25%;
+    height: 360px;
+    overflow: hidden;
+    box-shadow: 7px 7px 5px gray;
+    background-color: white;
+}
+
+
+.sport {
+    border: 1px solid black;
+    border-radius: 5px;
+
+    padding: 10px 0px 40px 0px;
+    margin: 0px 40px 0px 40px;
+
+
+}
+
+.box2 {
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 1200px;
+    height: 920px;
+    box-shadow: 7px 7px 5px gray;
+    background-color: white;
+    
+    
+}
+
+.subbox {
+    border: .1rem solid rgba(5, 5, 5, .6);
+    border-radius: 6px;
+    width: 25%;
+    height: 255px;
+    overflow: hidden;
+
+}
+
+.subbox:hover {
+    box-shadow: 9px 9px 5px gray;
+
+}
+
+
+
+.img3 {
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.img3:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px gray;
+    cursor: zoom-in;
+
+}
+
+h2 {
+    margin-top: -1PX;
+}
+
+.flex-2 {
+    margin-top: 40px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin-top: -5px;
+}
+
+h1 {
+    background-color: orange;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 0px -10px 0px;
+    text-decoration: underline;
+}
+
+.ref-logo {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    margin: 30px;
+    margin-left: -150px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+    margin: -8px;
+    background-color: rgba(0, 0, 0, 0.600);
+
+}
+
+footer a {
+    text-decoration: none;
+    padding: 17px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 18px;
+    text-shadow: 4px 3px 5px black;
+
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media (max-width:470px) {
+    .img1 {
+        height: 100px;
+        width: 153px;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+    .box p {
+        display: none;
+
+    }
+
+    .box {
+        display: table;
+        height: 320px;
+        width: 45%;
+    }
+
+    button {
+        padding: 5px 5px;
+        margin: 5px 0px 0px 30px;
+
+    }
+
+    .box-del {
+        display: none;
+    }
+    .text .kp {
+        display: none;
+    }
+    .box1{
+        display: table;
+        height: 280px;
+        width: 45%;
+
+    }
+    .box2 {
+        /* border: 2px solid black;
+        border-radius: 9px;
+        width: 1200px;
+        height: 920px;
+        box-shadow: 7px 7px 5px gray;
+        background-color: white; */
+        overflow: scroll;
+    }
+    .box1-del{
+        display: none;
+    
+    }
+    .nav a{
+        display: none;
+    }
+    
+    
+}
+@media (min-width:480px) {
+    .text-del .kp{
+        display: none;
+    }
+    
+}
+

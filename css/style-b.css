@@ -1,0 +1,28 @@
+.nav :hover{
+    color: lightcoral;
+}
+ 
+.nav{
+    background-color: grey;
+    padding: 17px;
+    margin: -20px;
+    padding-right: 530px;
+    position: fixed;
+    
+}
+
+
+.nav a {
+    text-decoration: none;
+    padding: 18px;
+    color: white;
+    font-size: 21px;
+    text-shadow:4px 3px 5px black;  
+}
+.nav .logo{
+    color: lightpink;
+    text-transform: uppercase;
+    text-shadow: 4px 3px 5px black; 
+    font-size: 30px;
+    font-weight: bolder;
+ }

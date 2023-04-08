@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing-up form</title>
+    <style>
+        button{
+            padding: 5px 40px 5px 40px;
+            margin: 15px;
+        }
+        .sing-up{
+            border: 2px solid rgba(2,2,2,.2);
+            border-radius: 15px;
+            width: 23%;
+            height: 530px;
+            overflow: hidden;
+            box-shadow: 0px 0px 13px white;
+            background-color: rgba(0,0,0,0.7);
+        }
+        
+        video{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+        .sing-up{
+            position: fixed;
+            bottom: 0;
+            margin: 0px 0px 100px 500px;
+        
+        }
+
+        button{
+            border-radius: 7px;
+            cursor: pointer;
+            padding: 10px 35px 10px 35px;
+            font-weight: bold;
+
+        }
+        button:hover{
+            color: white;
+            background-color: black;
+            border: 1px solid white;
+        }
+
+        input[type="text"],[type="password"] ,[name="checkbox"]{
+            border-radius: 10px;
+            border: 1px solid white;
+            padding: 10px;
+            background-color: transparent;
+        
+        }
+        input select textarea{
+            color: aliceblue;
+        }
+        u,a{
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+        }
+        
+       
+            
+            </style>
+</head>
+<body bgcolor="white">
+    <div class="main"> 
+        <video  src="vid8.mp4" id="video-slider" loop autoplay muted></video>
+        <center>
+    <div class="sing-up" > <br>
+        <img src="img/user avatar.png"  alt="" height="140px"> <br><br>
+ <u>Username :</u>   <input style="color: white;" type="text" name="user" placeholder="Create Username" required="required">
+
+  <br><br>
+
+ <u>Password :</u>   <input style="color: white;" type="password" name="pass" placeholder="Create Password" required="required"> <br><br>
+
+ <input type="checkbox" name="remember me" required="remember" > <u>Remember Me </u><br>
+
+ <a href="explore more.html"><button  type="submit" value="sing up"> Sing up</button></a>
+  <br>
+
+ <u>----------------  OR  ----------------</u>
+
+<br><br>
+
+<!--google sing up-->
+
+<a href="https://accounts.google.com/Login/signinchooser?ifkv=AWnogHfj3NCFVzs-cmXsqjY01m7BK19-Km1dH4B8lrWB4_uPs-Jnx0I577vgphFk1XDGVrq6EreqKw&flowName=GlifWebSignIn&flowEntry=ServiceLogin"> <img src="img/google logo.png" height="50px" alt="">  &nbsp; &nbsp;
+</a>
+
+<!--facebook sing up-->
+
+<a href="https://www.facebook.com/index.php"> <img src="img/facebook logo.png" height="50px" alt="">
+</a>
+<br>
+
+<a href="index.html"><button>Cancel</button>
+</a>
+
+</div>
+</div>
+              
+        
+
+</center>
+</body>
+</html>

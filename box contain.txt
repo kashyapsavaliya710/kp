@@ -1,0 +1,13 @@
+<!--box contain for car clube-->
+
+<div class="box">
+                <img src="" alt="">
+                <h2></h2>
+                <p></p>
+                <div class="price">   &#8377;  </div> <br>
+     &nbsp;&nbsp; <button><a class="bnt" href="#">Buy Now</a></button>   &nbsp; &nbsp;
+                     <button><a class="bnt" href="" target="_blank">See More</a></button>
+
+<!--logo contain-->
+
+ <a href="#" class="logoimg"><img src="" alt="" height="100px" style="border: 1px solid rgba(2,2,2,.2); padding: 10px;"></a>
